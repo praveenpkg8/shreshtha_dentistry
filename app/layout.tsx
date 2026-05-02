@@ -22,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600&display=swap"
           rel="stylesheet"
         />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
       </head>
       <body>
         <BookingHost>
@@ -29,6 +30,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <Footer />
         </BookingHost>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (window.netlifyIdentity) {
+                window.netlifyIdentity.on("init", function (user) {
+                  if (!user) {
+                    window.netlifyIdentity.on("login", function () {
+                      document.location.href = "/admin/";
+                    });
+                  }
+                });
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );
