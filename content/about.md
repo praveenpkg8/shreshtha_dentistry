@@ -1,6 +1,6 @@
 ---
 heroEyebrow: About Shreshtha Dentistry
-heroTitle: Healthcare begins with trust. AND test
+heroTitle: Healthcare begins with trust.
 heroLede: Shreshtha Dentistry was founded with a simple vision — high-quality,
   ethical, patient-centred dental care, in a space that actually feels
   welcoming. Multispeciality and paediatric, all under one roof in T. Nagar.
