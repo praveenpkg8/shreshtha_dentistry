@@ -1,0 +1,252 @@
+# Decap CMS configuration
+# -----------------------------------------------------------------------------
+# Local dev: run `npx decap-server` in another terminal and visit /admin/.
+# Production: switch the `backend` block below to `git-gateway` (Netlify) or
+# `github` (any host). Docs: https://decapcms.org/docs/configuration-options/
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Uncomment for local file editing during development:
+local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: "/"
+display_url: "/"
+
+collections:
+  - name: site
+    label: "Site settings"
+    files:
+      - file: "content/site.json"
+        label: "Site"
+        name: "site"
+        format: json
+        fields:
+          - label: Brand
+            name: brand
+            widget: object
+            fields:
+              - { label: "Short name", name: name, widget: string }
+              - { label: "Full name", name: fullName, widget: string }
+              - { label: "Tagline", name: tagline, widget: string }
+              - { label: "Location", name: location, widget: string }
+          - label: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: "Page title", name: title, widget: string }
+              - { label: "Meta description", name: description, widget: text }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: "Phone (display)", name: phone, widget: string }
+              - { label: "Phone (tel link, e.g. +919999999999)", name: phoneTel, widget: string }
+              - { label: "WhatsApp number (digits only)", name: whatsapp, widget: string }
+              - { label: "Email", name: email, widget: string }
+              - { label: "Address line 1", name: addressLine1, widget: string }
+              - { label: "Address line 2", name: addressLine2, widget: string, required: false }
+              - { label: "Google Maps embed URL", name: mapEmbed, widget: string, required: false }
+          - label: Hours
+            name: hours
+            widget: object
+            fields:
+              - { label: "Weekdays", name: weekdays, widget: string }
+              - { label: "Weekend", name: weekend, widget: string }
+          - label: Social
+            name: social
+            widget: object
+            fields:
+              - { label: "Instagram URL", name: instagram, widget: string, required: false }
+              - { label: "Facebook URL", name: facebook, widget: string, required: false }
+              - { label: "WhatsApp link", name: whatsapp, widget: string, required: false }
+          - label: Stats
+            name: stats
+            widget: object
+            fields:
+              - { label: "Google rating", name: googleRating, widget: string }
+              - { label: "Review count", name: reviewCount, widget: string }
+              - { label: "Years of practice", name: yearsOfPractice, widget: string }
+          - label: Theme
+            name: theme
+            widget: object
+            fields:
+              - label: "Palette"
+                name: palette
+                widget: select
+                options: ["default", "navy-gold", "warm-clay", "lilac-mint"]
+                default: "default"
+              - label: "Density"
+                name: density
+                widget: select
+                options: ["airy", "compact"]
+                default: "airy"
+              - label: "Hero variant"
+                name: heroVariant
+                widget: select
+                options: ["editorial", "split", "centered"]
+                default: "editorial"
+
+      - file: "content/about.md"
+        label: "About page"
+        name: about
+        fields:
+          - { label: "Eyebrow", name: heroEyebrow, widget: string }
+          - { label: "Hero title", name: heroTitle, widget: string }
+          - { label: "Hero lede", name: heroLede, widget: text }
+          - { label: "Mission title", name: missionTitle, widget: string }
+          - { label: "Mission body", name: missionBody, widget: text }
+          - { label: "Vision title", name: visionTitle, widget: string }
+          - { label: "Vision body", name: visionBody, widget: text }
+          - label: "Commitments"
+            name: commitments
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Body", name: body, widget: text }
+
+  - name: doctors
+    label: "Doctors"
+    files:
+      - file: "content/doctors.json"
+        label: "Doctors list"
+        name: doctors
+        format: json
+        fields:
+          - label: "Doctors"
+            name: doctors
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "ID (slug)", name: id, widget: string }
+              - { label: "Name", name: name, widget: string }
+              - { label: "Credentials", name: credentials, widget: string }
+              - { label: "Role", name: role, widget: string }
+              - { label: "Specialty", name: specialty, widget: string }
+              - { label: "Bio", name: bio, widget: text }
+              - { label: "Highlights", name: highlights, widget: list, field: { label: "Highlight", name: item, widget: string } }
+              - { label: "Portrait image", name: image, widget: image, required: false }
+
+  - name: services
+    label: "Services"
+    files:
+      - file: "content/services.json"
+        label: "Services list"
+        name: services
+        format: json
+        fields:
+          - label: "Services"
+            name: services
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "ID (slug)", name: id, widget: string }
+              - { label: "Name", name: name, widget: string }
+              - label: "Category"
+                name: category
+                widget: select
+                options: ["general", "restorative", "cosmetic", "orthodontic", "kids"]
+              - { label: "Tagline", name: tagline, widget: string }
+              - { label: "Duration", name: duration, widget: string }
+              - { label: "Price", name: price, widget: string }
+              - label: "Icon"
+                name: icon
+                widget: select
+                options: ["sparkle", "shield", "tooth", "crown", "smile", "align", "drop", "heart", "spacer", "bolt", "leaf"]
+              - { label: "Summary", name: summary, widget: text }
+              - { label: "Benefits", name: benefits, widget: list, field: { label: "Benefit", name: item, widget: string } }
+              - { label: "Process steps", name: process, widget: list, field: { label: "Step", name: item, widget: string } }
+              - { label: "Hero image", name: image, widget: image, required: false }
+              - { label: "Long-form content file (in content/services/)", name: contentFile, widget: string, required: false }
+
+  - name: service_content
+    label: "Service long-form content"
+    folder: "content/services"
+    extension: md
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Body (markdown)", name: body, widget: markdown }
+
+  - name: testimonials
+    label: "Testimonials"
+    files:
+      - file: "content/testimonials.json"
+        label: "Testimonials list"
+        name: testimonials
+        format: json
+        fields:
+          - label: "Testimonials"
+            name: testimonials
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Rating", name: rating, widget: number, default: 5, min: 1, max: 5 }
+              - { label: "Treatment", name: treatment, widget: string }
+              - { label: "Quote", name: quote, widget: text }
+
+  - name: faqs
+    label: "FAQ"
+    files:
+      - file: "content/faqs.json"
+        label: "FAQ list"
+        name: faqs
+        format: json
+        fields:
+          - label: "FAQs"
+            name: faqs
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "Question", name: q, widget: string }
+              - { label: "Answer", name: a, widget: text }
+
+  - name: gallery
+    label: "Gallery"
+    files:
+      - file: "content/gallery.json"
+        label: "Gallery items"
+        name: gallery
+        format: json
+        fields:
+          - label: "Items"
+            name: items
+            widget: list
+            allow_add: true
+            fields:
+              - { label: "ID", name: id, widget: string }
+              - { label: "Label", name: label, widget: string }
+              - label: "Category"
+                name: category
+                widget: select
+                options: ["clinic", "results"]
+              - label: "Aspect ratio"
+                name: aspect
+                widget: select
+                options: ["1/1", "16/10", "4/3", "3/4", "21/9"]
+              - { label: "Image", name: image, widget: image, required: false }
+
+  - name: blog
+    label: "Journal posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - { label: "ID (slug)", name: id, widget: string }
+      - { label: "Title", name: title, widget: string }
+      - label: "Category"
+        name: category
+        widget: select
+        options: ["Kids", "Orthodontics", "General", "Cosmetic", "Emergency"]
+      - { label: "Read time", name: readTime, widget: string, default: "5 min read" }
+      - { label: "Date", name: date, widget: datetime }
+      - { label: "Excerpt", name: excerpt, widget: text }
+      - { label: "Header image", name: image, widget: image, required: false }
+      - { label: "Body", name: body, widget: markdown }

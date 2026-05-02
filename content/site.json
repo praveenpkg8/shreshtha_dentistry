@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "name": "Shreshtha",
+    "fullName": "Shreshtha Dentistry",
+    "tagline": "Multispeciality & Paediatric Dental Care",
+    "location": "T. Nagar, Chennai"
+  },
+  "seo": {
+    "title": "Shreshtha Dentistry — Multispeciality & Paediatric Care · T. Nagar, Chennai",
+    "description": "A modern multispeciality dental practice in central Chennai, designed around how care should feel — calm, considered, and built for the whole family."
+  },
+  "contact": {
+    "phone": "+91 99999 99999",
+    "phoneTel": "+919999999999",
+    "whatsapp": "919999999999",
+    "email": "care@shreshtha.dental",
+    "addressLine1": "T. Nagar, Chennai 600017",
+    "addressLine2": "Near Pondy Bazaar",
+    "mapEmbed": ""
+  },
+  "hours": {
+    "weekdays": "Mon — Sat · 9:30 AM — 8:30 PM",
+    "weekend": "Sunday · By appointment"
+  },
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "whatsapp": "https://wa.me/919999999999"
+  },
+  "stats": {
+    "googleRating": "4.9",
+    "reviewCount": "200+",
+    "yearsOfPractice": "15+"
+  },
+  "theme": {
+    "palette": "default",
+    "density": "airy",
+    "heroVariant": "editorial"
+  }
+}
