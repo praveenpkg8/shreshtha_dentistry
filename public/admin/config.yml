@@ -6,7 +6,7 @@
 
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 # Uncomment for local file editing during development:
 local_backend: true
