@@ -1,10 +1,11 @@
 ---
 heroEyebrow: About Shreshtha Dentistry
-heroTitle: Healthcare begins with trust. AND test
-heroLede: Shreshtha Dentistry was founded with a simple vision — high-quality,
-  ethical, patient-centred dental care, in a space that actually feels
-  welcoming. Multispeciality and paediatric, all under one roof in T. Nagar.
-missionTitle: Safe. Effective. Personal.
+heroTitle: Bringing Back Healthy, Beautiful & Confident Smiles
+heroLede: Shreshtha Dentistry and Shreshtha Kids Dentistry were established with
+  a vision to provide high-quality, ethical, and patient-centred dental care in
+  a warm and welcoming environment. Our multispeciality dental clinic offers
+  comprehensive dental treatments for adults and children under one roof.
+missionTitle: Safe. Ethical. Personal care.
 missionBody: We deliver evidence-based treatment using modern techniques.
   Healthcare should be accessible, understandable, and stress-free — for every
   patient who walks through our doors.
