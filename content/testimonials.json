@@ -1,37 +1,39 @@
-[
-  {
-    "name": "Priya Ramesh",
-    "location": "T. Nagar",
-    "rating": 5,
-    "treatment": "Clear Aligners",
-    "quote": "I was nervous about straightening my teeth as an adult, but Dr. Swetha walked me through every step. Eight months in and the change is incredible. The clinic itself feels nothing like a typical dentist — calm, clean, very thoughtful."
-  },
-  {
-    "name": "Arjun & Meera (parent)",
-    "location": "Pondy Bazaar",
-    "rating": 5,
-    "treatment": "Pediatric Care",
-    "quote": "My six-year-old used to cry at every dental visit. Here, he asks when we're going next. The team made his pulp therapy completely painless and he picked his own crown colour. Genuine, gentle, kid-first care."
-  },
-  {
-    "name": "Vignesh K",
-    "location": "Mambalam",
-    "rating": 5,
-    "treatment": "Wisdom Tooth Extraction",
-    "quote": "Had two impacted wisdom teeth removed by Dr. Kalpa. Surgical precision, zero complications, recovered in three days. The pre- and post-op communication was honestly better than most hospitals."
-  },
-  {
-    "name": "Sneha I",
-    "location": "Kodambakkam",
-    "rating": 5,
-    "treatment": "Veneers",
-    "quote": "Six veneers, planned digitally before we even started. The smile preview helped me feel confident about every decision. Natural, not 'fake-Hollywood' — exactly what I asked for."
-  },
-  {
-    "name": "Rohan T",
-    "location": "Nungambakkam",
-    "rating": 5,
-    "treatment": "Scaling & Whitening",
-    "quote": "Have been coming for two years now. Honest pricing, no upselling, and they remember small details about every visit. The kind of family clinic Chennai has been missing."
-  }
-]
+{
+  "testimonials": [
+    {
+      "name": "Priya Ramesh",
+      "location": "T. Nagar",
+      "rating": 5,
+      "treatment": "Clear Aligners",
+      "quote": "I was nervous about straightening my teeth as an adult, but Dr. Swetha walked me through every step. Eight months in and the change is incredible. The clinic itself feels nothing like a typical dentist — calm, clean, very thoughtful."
+    },
+    {
+      "name": "Arjun & Meera (parent)",
+      "location": "Pondy Bazaar",
+      "rating": 5,
+      "treatment": "Pediatric Care",
+      "quote": "My six-year-old used to cry at every dental visit. Here, he asks when we're going next. The team made his pulp therapy completely painless and he picked his own crown colour. Genuine, gentle, kid-first care."
+    },
+    {
+      "name": "Vignesh K",
+      "location": "Mambalam",
+      "rating": 5,
+      "treatment": "Wisdom Tooth Extraction",
+      "quote": "Had two impacted wisdom teeth removed by Dr. Kalpa. Surgical precision, zero complications, recovered in three days. The pre- and post-op communication was honestly better than most hospitals."
+    },
+    {
+      "name": "Sneha I",
+      "location": "Kodambakkam",
+      "rating": 5,
+      "treatment": "Veneers",
+      "quote": "Six veneers, planned digitally before we even started. The smile preview helped me feel confident about every decision. Natural, not 'fake-Hollywood' — exactly what I asked for."
+    },
+    {
+      "name": "Rohan T",
+      "location": "Nungambakkam",
+      "rating": 5,
+      "treatment": "Scaling & Whitening",
+      "quote": "Have been coming for two years now. Honest pricing, no upselling, and they remember small details about every visit. The kind of family clinic Chennai has been missing."
+    }
+  ]
+}

@@ -25,11 +25,13 @@ export default function Nav() {
 
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
-      <div className="nav-inner">
+      <div className="nav-brandbar">
         <Link href="/" className="brand" style={{ cursor: "pointer" }}>
           <div className="brand-mark"></div>
           <span>{site.brand.name}</span>
         </Link>
+      </div>
+      <div className="nav-inner">
         <div className="nav-links">
           {navPages.map((p) => (
             <Link key={p.id} href={p.id} className={`nav-link ${isActive(p.id) ? "active" : ""}`}>

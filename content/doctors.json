@@ -1,34 +1,36 @@
-[
-  {
-    "id": "dr-kalpa",
-    "name": "Dr. Kalpa Pandya",
-    "credentials": "MDS, FHNS",
-    "role": "Founder · Maxillofacial Surgeon",
-    "specialty": "Maxillofacial Surgery & Implants",
-    "bio": "Dr. Kalpa Pandya leads Shreshtha Dentistry with a focus on surgical precision and ethical, evidence-based care. With advanced training in Head & Neck Surgery, she brings hospital-grade expertise to every procedure — from complex extractions to full-mouth rehabilitation.",
-    "highlights": [
-      "Master of Dental Surgery (MDS)",
-      "Fellowship in Head & Neck Surgery (FHNS)",
-      "Expert in surgical extractions & implants",
-      "Full-mouth rehabilitation specialist"
-    ],
-    "image": ""
-  },
-  {
-    "id": "dr-swetha",
-    "name": "Dr. Swetha R K",
-    "credentials": "MDS, FMC",
-    "role": "Cosmetic & Paediatric Dentist",
-    "specialty": "Cosmetic, Restorative & Kids Dentistry",
-    "bio": "Dr. Swetha is an award-winning dental professional known for her patient-centred approach and academic rigour. With a Fellowship in Medical Cosmetology from Greifswald, Germany, multiple Best Paper awards, and the Young Dental Achiever Award (2023), she combines clinical skill with research-driven precision.",
-    "highlights": [
-      "BDS — Sri Ramachandra Institute",
-      "MDS — TN Dr. MGR Medical University",
-      "Fellowship in Medical Cosmetology, Greifswald, Germany",
-      "Young Dental Achiever Award, 2023",
-      "Best Student — IDA Molaris, 2023 & 2024",
-      "Author — 'Paediatric Sports Dentistry'"
-    ],
-    "image": ""
-  }
-]
+{
+  "doctors": [
+    {
+      "id": "dr-kalpa",
+      "name": "Dr. Kalpa Pandya",
+      "credentials": "MDS, FHNS",
+      "role": "Founder · Maxillofacial Surgeon",
+      "specialty": "Maxillofacial Surgery & Implants",
+      "bio": "Dr. Kalpa Pandya leads Shreshtha Dentistry with a focus on surgical precision and ethical, evidence-based care. With advanced training in Head & Neck Surgery, she brings hospital-grade expertise to every procedure — from complex extractions to full-mouth rehabilitation.",
+      "highlights": [
+        "Master of Dental Surgery (MDS)",
+        "Fellowship in Head & Neck Surgery (FHNS)",
+        "Expert in surgical extractions & implants",
+        "Full-mouth rehabilitation specialist"
+      ],
+      "image": ""
+    },
+    {
+      "id": "dr-swetha",
+      "name": "Dr. Swetha R K",
+      "credentials": "MDS, FMC",
+      "role": "Cosmetic & Paediatric Dentist",
+      "specialty": "Cosmetic, Restorative & Kids Dentistry",
+      "bio": "Dr. Swetha is an award-winning dental professional known for her patient-centred approach and academic rigour. With a Fellowship in Medical Cosmetology from Greifswald, Germany, multiple Best Paper awards, and the Young Dental Achiever Award (2023), she combines clinical skill with research-driven precision.",
+      "highlights": [
+        "BDS — Sri Ramachandra Institute",
+        "MDS — TN Dr. MGR Medical University",
+        "Fellowship in Medical Cosmetology, Greifswald, Germany",
+        "Young Dental Achiever Award, 2023",
+        "Best Student — IDA Molaris, 2023 & 2024",
+        "Author — 'Paediatric Sports Dentistry'"
+      ],
+      "image": ""
+    }
+  ]
+}

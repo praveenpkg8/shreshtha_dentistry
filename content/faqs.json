@@ -1,10 +1,36 @@
-[
-  { "q": "Do you treat both children and adults?", "a": "Yes. Shreshtha Dentistry is a multispeciality and paediatric dental practice. Our two doctors cover the full age spectrum — from a child's first dental visit through to advanced cosmetic and restorative work for adults." },
-  { "q": "How do I book an appointment?", "a": "You can book through the form on this site, call us directly, or send a WhatsApp message. We typically confirm within an hour during clinic hours and offer same-day slots for emergencies." },
-  { "q": "Where exactly are you located?", "a": "We're in T. Nagar, central Chennai — close to Pondy Bazaar and a short walk from the T. Nagar bus stand. Detailed directions and parking guidance are on our Contact page." },
-  { "q": "What are your clinic hours?", "a": "We are open Monday to Saturday, 9:30 AM to 8:30 PM. Sundays are by prior appointment for emergencies and follow-ups only." },
-  { "q": "Do you offer emergency dental care?", "a": "Yes — we keep same-day slots available for dental trauma, severe pain, and post-op concerns. Call or WhatsApp us first so we can guide you on what to do before you arrive." },
-  { "q": "Will my treatment be painful?", "a": "Modern dentistry is far gentler than most people expect. We use local anaesthesia for any invasive procedure, and our paediatric protocols include behaviour-management techniques designed specifically for anxious children." },
-  { "q": "How transparent is your pricing?", "a": "We give you a written treatment plan with itemised costs before any work begins. There are no hidden charges. Where multiple options exist, we'll explain trade-offs honestly so you can choose what fits your budget." },
-  { "q": "Do you accept dental insurance?", "a": "We provide all documentation needed for reimbursement claims with most major insurance providers. Reach out to us with your provider's name and we'll guide you through the process." }
-]
+{
+  "faqs": [
+    {
+      "q": "Do you treat both children and adults?",
+      "a": "Yes. Shreshtha Dentistry is a multispeciality and paediatric dental practice. Our two doctors cover the full age spectrum — from a child's first dental visit through to advanced cosmetic and restorative work for adults."
+    },
+    {
+      "q": "How do I book an appointment?",
+      "a": "You can book through the form on this site, call us directly, or send a WhatsApp message. We typically confirm within an hour during clinic hours and offer same-day slots for emergencies."
+    },
+    {
+      "q": "Where exactly are you located?",
+      "a": "We're in T. Nagar, central Chennai — close to Pondy Bazaar and a short walk from the T. Nagar bus stand. Detailed directions and parking guidance are on our Contact page."
+    },
+    {
+      "q": "What are your clinic hours?",
+      "a": "We are open Monday to Saturday, 9:30 AM to 8:30 PM. Sundays are by prior appointment for emergencies and follow-ups only."
+    },
+    {
+      "q": "Do you offer emergency dental care?",
+      "a": "Yes — we keep same-day slots available for dental trauma, severe pain, and post-op concerns. Call or WhatsApp us first so we can guide you on what to do before you arrive."
+    },
+    {
+      "q": "Will my treatment be painful?",
+      "a": "Modern dentistry is far gentler than most people expect. We use local anaesthesia for any invasive procedure, and our paediatric protocols include behaviour-management techniques designed specifically for anxious children."
+    },
+    {
+      "q": "How transparent is your pricing?",
+      "a": "We give you a written treatment plan with itemised costs before any work begins. There are no hidden charges. Where multiple options exist, we'll explain trade-offs honestly so you can choose what fits your budget."
+    },
+    {
+      "q": "Do you accept dental insurance?",
+      "a": "We provide all documentation needed for reimbursement claims with most major insurance providers. Reach out to us with your provider's name and we'll guide you through the process."
+    }
+  ]
+}

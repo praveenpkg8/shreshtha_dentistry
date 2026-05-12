@@ -6,18 +6,18 @@ import faqsJson from "@/content/faqs.json";
 import galleryJson from "@/content/gallery.json";
 
 export type SiteConfig = typeof siteJson;
-export type Doctor = (typeof doctorsJson)[number];
-export type Service = (typeof servicesJson)[number];
-export type Testimonial = (typeof testimonialsJson)[number];
-export type Faq = (typeof faqsJson)[number];
-export type GalleryItem = (typeof galleryJson)[number];
+export type Doctor = (typeof doctorsJson.doctors)[number];
+export type Service = (typeof servicesJson.services)[number];
+export type Testimonial = (typeof testimonialsJson.testimonials)[number];
+export type Faq = (typeof faqsJson.faqs)[number];
+export type GalleryItem = (typeof galleryJson.items)[number];
 
 export const site: SiteConfig = siteJson;
-export const doctors: Doctor[] = doctorsJson;
-export const services: Service[] = servicesJson;
-export const testimonials: Testimonial[] = testimonialsJson;
-export const faqs: Faq[] = faqsJson;
-export const gallery: GalleryItem[] = galleryJson;
+export const doctors: Doctor[] = doctorsJson.doctors;
+export const services: Service[] = servicesJson.services;
+export const testimonials: Testimonial[] = testimonialsJson.testimonials;
+export const faqs: Faq[] = faqsJson.faqs;
+export const gallery: GalleryItem[] = galleryJson.items;
 
 export const navPages = [
   { id: "/", label: "Home" },

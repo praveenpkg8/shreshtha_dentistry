@@ -1,14 +1,88 @@
-[
-  { "id": "1", "label": "Reception & Waiting Area", "category": "clinic", "aspect": "16/10", "image": "" },
-  { "id": "2", "label": "Operatory 1", "category": "clinic", "aspect": "1/1", "image": "" },
-  { "id": "3", "label": "Kids' Play Corner", "category": "clinic", "aspect": "1/1", "image": "" },
-  { "id": "4", "label": "Sterilization Bay", "category": "clinic", "aspect": "16/10", "image": "" },
-  { "id": "5", "label": "Veneers — Before & After", "category": "results", "aspect": "1/1", "image": "" },
-  { "id": "6", "label": "Aligners — 8 month progress", "category": "results", "aspect": "1/1", "image": "" },
-  { "id": "7", "label": "Whitening — Before & After", "category": "results", "aspect": "16/10", "image": "" },
-  { "id": "8", "label": "Crown restoration", "category": "results", "aspect": "1/1", "image": "" },
-  { "id": "9", "label": "Digital scanning bay", "category": "clinic", "aspect": "1/1", "image": "" },
-  { "id": "10", "label": "Consultation room", "category": "clinic", "aspect": "16/10", "image": "" },
-  { "id": "11", "label": "Implant — full case", "category": "results", "aspect": "1/1", "image": "" },
-  { "id": "12", "label": "Pediatric crowns", "category": "results", "aspect": "1/1", "image": "" }
-]
+{
+  "items": [
+    {
+      "id": "1",
+      "label": "Reception & Waiting Area",
+      "category": "clinic",
+      "aspect": "16/10",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "label": "Operatory 1",
+      "category": "clinic",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "3",
+      "label": "Kids' Play Corner",
+      "category": "clinic",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "4",
+      "label": "Sterilization Bay",
+      "category": "clinic",
+      "aspect": "16/10",
+      "image": ""
+    },
+    {
+      "id": "5",
+      "label": "Veneers — Before & After",
+      "category": "results",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "6",
+      "label": "Aligners — 8 month progress",
+      "category": "results",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "7",
+      "label": "Whitening — Before & After",
+      "category": "results",
+      "aspect": "16/10",
+      "image": ""
+    },
+    {
+      "id": "8",
+      "label": "Crown restoration",
+      "category": "results",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "9",
+      "label": "Digital scanning bay",
+      "category": "clinic",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "10",
+      "label": "Consultation room",
+      "category": "clinic",
+      "aspect": "16/10",
+      "image": ""
+    },
+    {
+      "id": "11",
+      "label": "Implant — full case",
+      "category": "results",
+      "aspect": "1/1",
+      "image": ""
+    },
+    {
+      "id": "12",
+      "label": "Pediatric crowns",
+      "category": "results",
+      "aspect": "1/1",
+      "image": ""
+    }
+  ]
+}
