@@ -1,44 +1,34 @@
 {
   "services": [
     {
-      "id": "scaling-polishing",
-      "name": "Scaling & Polishing",
-      "category": "general",
-      "tagline": "Professional cleaning for healthy gums and a brighter smile.",
-      "duration": "20–40 min",
-      "price": "From ₹1,200",
-      "icon": "sparkle",
       "summary": "Removes hardened tartar above and below the gumline using ultrasonic scaling, then polishes away surface stains from coffee, tea, and tobacco.",
-      "benefits": [
-        "Prevents gum disease",
-        "Reduces bad breath",
-        "Removes coffee, tea & tobacco stains",
-        "Detects dental problems early"
-      ],
+      "price": "From ₹1,200",
+      "name": "Scaling & Polishing",
+      "tagline": "Professional cleaning for healthy gums and a brighter smile.",
       "process": [
         "Dental examination",
         "Ultrasonic scaling above & below gumline",
         "Polishing to smooth tooth surface",
         "Personalised oral hygiene guidance"
       ],
+      "duration": "20–40 min",
+      "contentFile": "Scaling and polishing.md",
+      "icon": "sparkle",
+      "id": "scaling-polishing",
       "image": "",
-      "contentFile": "Scaling and polishing.md"
+      "benefits": [
+        "Prevents gum disease",
+        "Reduces bad breath",
+        "Removes coffee, tea & tobacco stains",
+        "Detects dental problems early"
+      ],
+      "category": "general"
     },
     {
-      "id": "fillings",
-      "name": "Tooth-Coloured Fillings",
-      "category": "general",
-      "tagline": "Restore cavities with composite that matches your natural tooth.",
-      "duration": "20–40 min",
-      "price": "From ₹1,500",
-      "icon": "shield",
       "summary": "Composite (tooth-coloured) fillings repair decay, cracks, and minor fractures while preserving natural tooth structure. Glass ionomer fillings — which release fluoride — are also available.",
-      "benefits": [
-        "Match natural tooth colour",
-        "Single-visit treatment",
-        "Stop further decay",
-        "Restore chewing function"
-      ],
+      "price": "From ₹1,500",
+      "name": "Tooth-Coloured Fillings",
+      "tagline": "Restore cavities with composite that matches your natural tooth.",
       "process": [
         "Examination & imaging",
         "Removal of decay",
@@ -46,24 +36,24 @@
         "Filling placement",
         "Shaping and polishing"
       ],
+      "duration": "20–40 min",
+      "contentFile": "Teeth Fillings.md",
+      "icon": "shield",
+      "id": "fillings",
       "image": "",
-      "contentFile": "Teeth Fillings.md"
+      "benefits": [
+        "Match natural tooth colour",
+        "Single-visit treatment",
+        "Stop further decay",
+        "Restore chewing function"
+      ],
+      "category": "general"
     },
     {
-      "id": "extraction",
-      "name": "Tooth Extraction",
-      "category": "general",
-      "tagline": "Painless removal when a tooth can no longer be saved.",
-      "duration": "20–40 min",
-      "price": "From ₹2,500",
-      "icon": "tooth",
       "summary": "Simple and surgical extractions performed under local anaesthesia. Includes wisdom tooth removal, with detailed aftercare and replacement planning.",
-      "benefits": [
-        "Painless under local anaesthesia",
-        "Fast recovery with proper aftercare",
-        "Stops the spread of infection",
-        "Prepares for implants or dentures"
-      ],
+      "price": "From ₹2,500",
+      "name": "Tooth Extraction",
+      "tagline": "Painless removal when a tooth can no longer be saved.",
       "process": [
         "Dental examination & X-ray",
         "Local anaesthesia",
@@ -71,48 +61,48 @@
         "Cleaning of the extraction site",
         "Aftercare & replacement planning"
       ],
+      "duration": "20–40 min",
+      "contentFile": "Tooth Extraction.md",
+      "icon": "tooth",
+      "id": "extraction",
       "image": "",
-      "contentFile": "Tooth Extraction.md"
+      "benefits": [
+        "Painless under local anaesthesia",
+        "Fast recovery with proper aftercare",
+        "Stops the spread of infection",
+        "Prepares for implants or dentures"
+      ],
+      "category": "general"
     },
     {
-      "id": "crowns-bridges",
-      "name": "Dental Crowns & Bridges",
-      "category": "restorative",
-      "tagline": "Durable restorations that look and feel natural.",
-      "duration": "2–3 visits",
-      "price": "From ₹8,000",
-      "icon": "crown",
       "summary": "Zirconia and PFM crowns to restore weakened or damaged teeth, plus bridges to replace missing teeth and stop neighbouring teeth from drifting.",
-      "benefits": [
-        "Lasts 10–15+ years with care",
-        "Natural-looking aesthetics",
-        "Restores chewing efficiency",
-        "Prevents teeth shifting"
-      ],
+      "price": "From ₹8,000",
+      "name": "Dental Crowns & Bridges",
+      "tagline": "Durable restorations that look and feel natural.",
       "process": [
         "Consultation & X-rays",
         "Tooth preparation",
         "Impression & temporary restoration",
         "Final placement of custom crown/bridge"
       ],
+      "duration": "2–3 visits",
+      "contentFile": "Dental Crowns and Bridges.md",
+      "icon": "crown",
+      "id": "crowns-bridges",
       "image": "",
-      "contentFile": "Dental Crowns and Bridges.md"
+      "benefits": [
+        "Lasts 10–15+ years with care",
+        "Natural-looking aesthetics",
+        "Restores chewing efficiency",
+        "Prevents teeth shifting"
+      ],
+      "category": "restorative"
     },
     {
-      "id": "dentures",
-      "name": "Dentures",
-      "category": "restorative",
-      "tagline": "Custom-made replacements for multiple missing teeth.",
-      "duration": "Multiple visits",
-      "price": "From ₹15,000",
-      "icon": "smile",
       "summary": "Complete, partial, and implant-supported dentures designed to fit comfortably, restore chewing and speech, and bring back your confident smile.",
-      "benefits": [
-        "Improve chewing and speech",
-        "Support facial muscles",
-        "Affordable tooth replacement",
-        "Custom-designed for comfort"
-      ],
+      "price": "From ₹15,000",
+      "name": "Dentures",
+      "tagline": "Custom-made replacements for multiple missing teeth.",
       "process": [
         "Consultation & examination",
         "Impressions of your mouth",
@@ -120,24 +110,24 @@
         "Final fabrication",
         "Adjustments & follow-up"
       ],
+      "duration": "Multiple visits",
+      "contentFile": "Dentures.md",
+      "icon": "smile",
+      "id": "dentures",
       "image": "",
-      "contentFile": "Dentures.md"
+      "benefits": [
+        "Improve chewing and speech",
+        "Support facial muscles",
+        "Affordable tooth replacement",
+        "Custom-designed for comfort"
+      ],
+      "category": "restorative"
     },
     {
-      "id": "veneers",
-      "name": "Veneers & Laminates",
-      "category": "cosmetic",
-      "tagline": "Transform stained, chipped, or uneven teeth into a confident smile.",
-      "duration": "2–3 visits",
-      "price": "From ₹12,000",
-      "icon": "sparkle",
       "summary": "Porcelain and composite veneers, plus ultra-thin no-prep laminates. Custom shells bonded to the front of teeth to correct colour, shape, and minor alignment.",
-      "benefits": [
-        "Instant smile enhancement",
-        "Natural appearance",
-        "Long-lasting (10–15+ years)",
-        "Stain resistance"
-      ],
+      "price": "From ₹12,000",
+      "name": "Veneers & Laminates",
+      "tagline": "Transform stained, chipped, or uneven teeth into a confident smile.",
       "process": [
         "Consultation & smile planning",
         "Minimal tooth preparation (if needed)",
@@ -145,24 +135,24 @@
         "Custom fabrication",
         "Final bonding"
       ],
+      "duration": "2–3 visits",
+      "contentFile": "Veneers.md",
+      "icon": "sparkle",
+      "id": "veneers",
       "image": "",
-      "contentFile": "Veneers.md"
+      "benefits": [
+        "Instant smile enhancement",
+        "Natural appearance",
+        "Long-lasting (10–15+ years)",
+        "Stain resistance"
+      ],
+      "category": "cosmetic"
     },
     {
-      "id": "braces",
-      "name": "Braces",
-      "category": "orthodontic",
-      "tagline": "Effective, reliable correction for moderate to complex cases.",
-      "duration": "12–24 months",
-      "price": "From ₹35,000",
-      "icon": "align",
       "summary": "Fixed metal braces gently move teeth into proper alignment using continuous, gentle pressure. Suitable for crowding, spacing, and bite issues.",
-      "benefits": [
-        "Improves smile aesthetics",
-        "Enhances chewing function",
-        "Reduces gum disease risk",
-        "Prevents bite & jaw problems"
-      ],
+      "price": "From ₹35,000",
+      "name": "Braces",
+      "tagline": "Effective, reliable correction for moderate to complex cases.",
       "process": [
         "Consultation & digital scans",
         "Personalised treatment plan",
@@ -170,24 +160,24 @@
         "Regular follow-ups",
         "Retainers after completion"
       ],
+      "duration": "12–24 months",
+      "contentFile": "Braces.md",
+      "icon": "align",
+      "id": "braces",
       "image": "",
-      "contentFile": "Braces.md"
+      "benefits": [
+        "Improves smile aesthetics",
+        "Enhances chewing function",
+        "Reduces gum disease risk",
+        "Prevents bite & jaw problems"
+      ],
+      "category": "orthodontic"
     },
     {
-      "id": "aligners",
-      "name": "Clear Aligners",
-      "category": "orthodontic",
-      "tagline": "Nearly invisible, removable trays that straighten teeth discreetly.",
-      "duration": "6–18 months",
-      "price": "From ₹85,000",
-      "icon": "align",
       "summary": "Custom-made transparent aligners replaced every 1–2 weeks. Removable for eating and brushing, ideal for teens and working professionals with mild to moderate cases.",
-      "benefits": [
-        "Nearly invisible",
-        "Removable for eating",
-        "No metal wires or brackets",
-        "Predictable digital planning"
-      ],
+      "price": "From ₹85,000",
+      "name": "Clear Aligners",
+      "tagline": "Nearly invisible, removable trays that straighten teeth discreetly.",
       "process": [
         "Digital scan or impression",
         "Custom aligner series fabricated",
@@ -195,24 +185,24 @@
         "Periodic check-ins",
         "Retainers after completion"
       ],
+      "duration": "6–18 months",
+      "contentFile": "Clear Aligners.md",
+      "icon": "align",
+      "id": "aligners",
       "image": "",
-      "contentFile": "Clear Aligners.md"
+      "benefits": [
+        "Nearly invisible",
+        "Removable for eating",
+        "No metal wires or brackets",
+        "Predictable digital planning"
+      ],
+      "category": "orthodontic"
     },
     {
-      "id": "kids-sealants",
-      "name": "Pit & Fissure Sealants",
-      "category": "kids",
-      "tagline": "Painless cavity prevention for molars — reduces decay risk by up to 80%.",
-      "duration": "Minutes per tooth",
-      "price": "From ₹800",
-      "icon": "shield",
       "summary": "Thin protective coatings painted onto the deep grooves of molars and premolars where toothbrushes can't reach. Quick, painless, and lasts 3–10 years.",
-      "benefits": [
-        "Up to 80% cavity reduction",
-        "Painless, no drilling",
-        "Quick application",
-        "Long-lasting protection"
-      ],
+      "price": "From ₹800",
+      "name": "Pit & Fissure Sealants",
+      "tagline": "Painless cavity prevention for molars — reduces decay risk by up to 80%.",
       "process": [
         "Tooth cleaning",
         "Drying the surface",
@@ -220,144 +210,144 @@
         "Sealant painted into grooves",
         "Hardened with curing light"
       ],
+      "duration": "Minutes per tooth",
+      "contentFile": "sealants.md",
+      "icon": "shield",
+      "id": "kids-sealants",
       "image": "",
-      "contentFile": "sealants.md"
+      "benefits": [
+        "Up to 80% cavity reduction",
+        "Painless, no drilling",
+        "Quick application",
+        "Long-lasting protection"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-fluoride",
-      "name": "Fluoride Varnish",
-      "category": "kids",
-      "tagline": "A quick, painless coating that strengthens enamel and fights cavities.",
-      "duration": "Under 10 min",
-      "price": "From ₹600",
-      "icon": "drop",
       "summary": "Concentrated fluoride coating painted onto teeth. Strengthens enamel, remineralises weak areas, slows cavity-causing bacteria, and helps stop early decay. Safe for toddlers, children, and adults.",
-      "benefits": [
-        "Strengthens enamel",
-        "Reduces sensitivity",
-        "Stops early decay",
-        "Safe for toddlers up"
-      ],
+      "price": "From ₹600",
+      "name": "Fluoride Varnish",
+      "tagline": "A quick, painless coating that strengthens enamel and fights cavities.",
       "process": [
         "Teeth are dried",
         "Varnish painted on",
         "Hardens quickly with saliva",
         "Soft food guidance for 4–6 hours"
       ],
+      "duration": "Under 10 min",
+      "contentFile": "Fluoride Varnish.md",
+      "icon": "drop",
+      "id": "kids-fluoride",
       "image": "",
-      "contentFile": "Fluoride Varnish.md"
+      "benefits": [
+        "Strengthens enamel",
+        "Reduces sensitivity",
+        "Stops early decay",
+        "Safe for toddlers up"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-pulp",
-      "name": "Pulp Therapy (Kids)",
-      "category": "kids",
-      "tagline": "Saves baby teeth from severe decay or infection.",
-      "duration": "1–2 visits",
-      "price": "From ₹3,500",
-      "icon": "heart",
       "summary": "A gentle alternative to extraction for baby teeth. Pulpotomy and pulpectomy clean infected pulp tissue and restore the tooth — keeping it functional until it falls out naturally.",
-      "benefits": [
-        "Relieves pain",
-        "Stops infection",
-        "Saves the natural tooth",
-        "Prevents spacing problems"
-      ],
+      "price": "From ₹3,500",
+      "name": "Pulp Therapy (Kids)",
+      "tagline": "Saves baby teeth from severe decay or infection.",
       "process": [
         "Numbing the tooth",
         "Removal of infected pulp",
         "Cleaning & disinfection",
         "Filling & crown placement"
       ],
+      "duration": "1–2 visits",
+      "contentFile": "Pulp Therapy for Kids.md",
+      "icon": "heart",
+      "id": "kids-pulp",
       "image": "",
-      "contentFile": "Pulp Therapy for Kids.md"
+      "benefits": [
+        "Relieves pain",
+        "Stops infection",
+        "Saves the natural tooth",
+        "Prevents spacing problems"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-crowns",
-      "name": "Pediatric Dental Crowns",
-      "category": "kids",
-      "tagline": "Stainless steel and zirconia crowns that protect damaged baby teeth.",
-      "duration": "1 visit",
-      "price": "From ₹2,500",
-      "icon": "crown",
       "summary": "Tooth-shaped caps for severely decayed or fractured baby teeth. Includes durable stainless steel, tooth-coloured zirconia, and natural-looking strip crowns for front teeth.",
-      "benefits": [
-        "Full coverage protection",
-        "Strong & long-lasting",
-        "Aesthetic options available",
-        "Lasts until the tooth falls out"
-      ],
+      "price": "From ₹2,500",
+      "name": "Pediatric Dental Crowns",
+      "tagline": "Stainless steel and zirconia crowns that protect damaged baby teeth.",
       "process": [
         "Numbing the tooth",
         "Removing decay",
         "Shaping the tooth",
         "Placing & cementing the crown"
       ],
+      "duration": "1 visit",
+      "contentFile": "Pediatric Dental Crowns.md",
+      "icon": "crown",
+      "id": "kids-crowns",
       "image": "",
-      "contentFile": "Pediatric Dental Crowns.md"
+      "benefits": [
+        "Full coverage protection",
+        "Strong & long-lasting",
+        "Aesthetic options available",
+        "Lasts until the tooth falls out"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-space",
-      "name": "Space Maintainers",
-      "category": "kids",
-      "tagline": "Holds the gap when a baby tooth is lost too early.",
-      "duration": "1 visit",
-      "price": "From ₹3,000",
-      "icon": "spacer",
       "summary": "Small fixed or removable appliances that keep the space open for the permanent tooth — preventing crowding and reducing the need for braces later.",
-      "benefits": [
-        "Maintains space for permanent teeth",
-        "Prevents crowding",
-        "Reduces need for braces later",
-        "Safe & cost-effective"
-      ],
+      "price": "From ₹3,000",
+      "name": "Space Maintainers",
+      "tagline": "Holds the gap when a baby tooth is lost too early.",
       "process": [
         "Examination & X-ray",
         "Impression of the area",
         "Custom appliance fabricated",
         "Fitted & cemented in place"
       ],
+      "duration": "1 visit",
+      "contentFile": "Space Maintainers.md",
+      "icon": "spacer",
+      "id": "kids-space",
       "image": "",
-      "contentFile": "Space Maintainers.md"
+      "benefits": [
+        "Maintains space for permanent teeth",
+        "Prevents crowding",
+        "Reduces need for braces later",
+        "Safe & cost-effective"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-mouthguard",
-      "name": "Mouth Guards for Kids",
-      "category": "kids",
-      "tagline": "Custom protection for sports and orthodontic patients.",
-      "duration": "2 visits",
-      "price": "From ₹2,500",
-      "icon": "shield",
       "summary": "Custom-fitted mouth guards absorb impact and prevent broken or knocked-out teeth, lip and tongue cuts, and jaw injuries. Essential for contact sports and kids in braces.",
-      "benefits": [
-        "Prevents chipped or knocked-out teeth",
-        "Protects lips, cheeks, tongue",
-        "Comfortable custom fit",
-        "Easier breathing & speaking"
-      ],
+      "price": "From ₹2,500",
+      "name": "Mouth Guards for Kids",
+      "tagline": "Custom protection for sports and orthodontic patients.",
       "process": [
         "Examination",
         "Impression of teeth",
         "Custom fabrication",
         "Fitting & care guidance"
       ],
+      "duration": "2 visits",
+      "contentFile": "Mouth Guard for Kids.md",
+      "icon": "shield",
+      "id": "kids-mouthguard",
       "image": "",
-      "contentFile": "Mouth Guard for Kids.md"
+      "benefits": [
+        "Prevents chipped or knocked-out teeth",
+        "Protects lips, cheeks, tongue",
+        "Comfortable custom fit",
+        "Easier breathing & speaking"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-trauma",
-      "name": "Dental Trauma (Kids)",
-      "category": "kids",
-      "tagline": "Same-day care for chipped, knocked-out, or displaced teeth.",
-      "duration": "Emergency",
-      "price": "Assessed on visit",
-      "icon": "bolt",
       "summary": "Emergency response for falls, sports injuries, and accidents. Quick action — within 30–60 minutes for permanent teeth — gives the best chance of saving the tooth.",
-      "benefits": [
-        "Same-day emergency slots",
-        "Treatment for baby & permanent teeth",
-        "Reduces long-term complications",
-        "Step-by-step parent guidance"
-      ],
+      "price": "Assessed on visit",
+      "name": "Dental Trauma (Kids)",
+      "tagline": "Same-day care for chipped, knocked-out, or displaced teeth.",
       "process": [
         "Phone triage & guidance",
         "Same-day examination",
@@ -365,32 +355,52 @@
         "Restoration or splinting",
         "Follow-up monitoring"
       ],
+      "duration": "Emergency",
+      "contentFile": "Dental Trauma Management for Kids.md",
+      "icon": "bolt",
+      "id": "kids-trauma",
       "image": "",
-      "contentFile": "Dental Trauma Management for Kids.md"
+      "benefits": [
+        "Same-day emergency slots",
+        "Treatment for baby & permanent teeth",
+        "Reduces long-term complications",
+        "Step-by-step parent guidance"
+      ],
+      "category": "kids"
     },
     {
-      "id": "kids-diet",
-      "name": "Diet Counselling (Kids)",
-      "category": "kids",
-      "tagline": "Personalised guidance to prevent early-childhood cavities.",
-      "duration": "30 min",
-      "price": "From ₹1,000",
-      "icon": "leaf",
       "summary": "A paediatric dentist evaluates your child's eating habits and provides personalised guidance — from snacking patterns to bottle feeding to tooth-friendly meal planning.",
-      "benefits": [
-        "Reduces cavity risk",
-        "Supports jaw & tooth development",
-        "Lifelong healthy habits",
-        "Tailored to your child"
-      ],
+      "price": "From ₹1,000",
+      "name": "Diet Counselling (Kids)",
+      "tagline": "Personalised guidance to prevent early-childhood cavities.",
       "process": [
         "Detailed diet history",
         "Risk assessment",
         "Customised diet chart",
         "Parent education & follow-up"
       ],
+      "duration": "30 min",
+      "contentFile": "Diet Counselling by a Paediatric Dentist.md",
+      "icon": "leaf",
+      "id": "kids-diet",
       "image": "",
-      "contentFile": "Diet Counselling by a Paediatric Dentist.md"
+      "benefits": [
+        "Reduces cavity risk",
+        "Supports jaw & tooth development",
+        "Lifelong healthy habits",
+        "Tailored to your child"
+      ],
+      "category": "kids"
+    },
+    {
+      "id": "test service",
+      "name": "test service",
+      "category": "general",
+      "tagline": "general",
+      "duration": "20 mins",
+      "price": "500",
+      "icon": "tooth",
+      "summary": "gfyffy8d7sryw"
     }
   ]
 }
