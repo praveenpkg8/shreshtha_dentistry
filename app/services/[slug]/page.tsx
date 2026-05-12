@@ -84,7 +84,7 @@ export default async function ServiceDetail({ params }: { params: { slug: string
             <div>
               <h3 className="display" style={{ fontSize: 26, marginBottom: 24 }}>Benefits</h3>
               <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 14 }}>
-                {s.benefits.map((b, i) => (
+                {(s.benefits ?? []).map((b, i) => (
                   <li
                     key={i}
                     style={{ display: "flex", gap: 12, alignItems: "start", fontSize: 16, color: "var(--c-ink-soft)" }}
@@ -113,7 +113,7 @@ export default async function ServiceDetail({ params }: { params: { slug: string
             <div>
               <h3 className="display" style={{ fontSize: 26, marginBottom: 24 }}>The procedure</h3>
               <ol style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 16 }}>
-                {s.process.map((p, i) => (
+                {(s.process ?? []).map((p, i) => (
                   <li key={i} style={{ display: "flex", gap: 16, alignItems: "start" }}>
                     <span
                       style={{
