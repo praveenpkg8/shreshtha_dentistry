@@ -8,19 +8,18 @@
       "process": [
         "Dental examination",
         "Ultrasonic scaling above & below gumline",
-        "Polishing to smooth tooth surface",
+        "Polishing",
         "Personalised oral hygiene guidance"
       ],
       "duration": "20–40 min",
       "contentFile": "Scaling and polishing.md",
       "icon": "sparkle",
       "id": "scaling-polishing",
-      "image": "",
+      "image": "/images/uploads/photo-2026-05-12-18-38-22.jpg",
       "benefits": [
         "Prevents gum disease",
         "Reduces bad breath",
-        "Removes coffee, tea & tobacco stains",
-        "Detects dental problems early"
+        "Removes coffee, tea & tobacco stains"
       ],
       "category": "general"
     },
@@ -50,8 +49,8 @@
       "category": "general"
     },
     {
-      "summary": "Simple and surgical extractions performed under local anaesthesia. Includes wisdom tooth removal, with detailed aftercare and replacement planning.",
-      "price": "From ₹2,500",
+      "summary": "Advanced tooth extraction procedures, including surgical and wisdom tooth extractions, performed with precision under local anaesthesia to ensure patient comfort and optimal healing.",
+      "price": "From ₹1,500",
       "name": "Tooth Extraction",
       "tagline": "Painless removal when a tooth can no longer be saved.",
       "process": [
@@ -65,18 +64,15 @@
       "contentFile": "Tooth Extraction.md",
       "icon": "tooth",
       "id": "extraction",
-      "image": "",
+      "image": "/images/uploads/photo-2026-05-12-18-37-23.jpg",
       "benefits": [
-        "Painless under local anaesthesia",
-        "Fast recovery with proper aftercare",
-        "Stops the spread of infection",
-        "Prepares for implants or dentures"
+        "Eliminates pain and Stops the further spread of infection"
       ],
       "category": "general"
     },
     {
-      "summary": "Zirconia and PFM crowns to restore weakened or damaged teeth, plus bridges to replace missing teeth and stop neighbouring teeth from drifting.",
-      "price": "From ₹8,000",
+      "summary": "Restore damaged, weakened, or root canal-treated teeth with durable Zirconia and PFM crowns designed for strength, function, and natural aesthetics. Our custom dental bridges replace missing teeth, restore chewing ability, maintain proper bite alignment, and prevent neighboring teeth from drifting into empty spaces, helping preserve your long-term oral health and smile confidence.",
+      "price": "From ₹6,000",
       "name": "Dental Crowns & Bridges",
       "tagline": "Durable restorations that look and feel natural.",
       "process": [
@@ -89,7 +85,7 @@
       "contentFile": "Dental Crowns and Bridges.md",
       "icon": "crown",
       "id": "crowns-bridges",
-      "image": "",
+      "image": "/images/uploads/photo-2026-05-12-18-44-24.jpg",
       "benefits": [
         "Lasts 10–15+ years with care",
         "Natural-looking aesthetics",
@@ -113,19 +109,19 @@
       "duration": "Multiple visits",
       "contentFile": "Dentures.md",
       "icon": "smile",
-      "id": "dentures",
-      "image": "",
+      "id": "Dentures",
+      "image": "/images/uploads/photo-2026-05-12-18-37-46.jpg",
       "benefits": [
         "Improve chewing and speech",
         "Support facial muscles",
-        "Affordable tooth replacement",
+        "Enhancement in esthetics.",
         "Custom-designed for comfort"
       ],
       "category": "restorative"
     },
     {
-      "summary": "Porcelain and composite veneers, plus ultra-thin no-prep laminates. Custom shells bonded to the front of teeth to correct colour, shape, and minor alignment.",
-      "price": "From ₹12,000",
+      "summary": "Porcelain veneers, composite veneers, and ultra-thin no-prep laminates are custom-designed cosmetic dental restorations that enhance the colour, shape, size, and alignment of teeth. Ideal for correcting stains, chips, gaps, worn teeth, and minor alignment concerns, veneers provide a natural-looking, long-lasting smile makeover with minimal tooth preparation.",
+      "price": "From ₹ 8,000",
       "name": "Veneers & Laminates",
       "tagline": "Transform stained, chipped, or uneven teeth into a confident smile.",
       "process": [
@@ -139,12 +135,11 @@
       "contentFile": "Veneers.md",
       "icon": "sparkle",
       "id": "veneers",
-      "image": "",
+      "image": "/images/uploads/2c27beb6-38e9-4246-9606-d420adcbb1d2.png",
       "benefits": [
         "Instant smile enhancement",
         "Natural appearance",
-        "Long-lasting (10–15+ years)",
-        "Stain resistance"
+        "Long-lasting (10–15+ years)"
       ],
       "category": "cosmetic"
     },
@@ -152,7 +147,7 @@
       "summary": "Fixed metal braces gently move teeth into proper alignment using continuous, gentle pressure. Suitable for crowding, spacing, and bite issues.",
       "price": "From ₹35,000",
       "name": "Braces",
-      "tagline": "Effective, reliable correction for moderate to complex cases.",
+      "tagline": "Effective, reliable teeth alignment correction.",
       "process": [
         "Consultation & digital scans",
         "Personalised treatment plan",
@@ -164,7 +159,7 @@
       "contentFile": "Braces.md",
       "icon": "align",
       "id": "braces",
-      "image": "",
+      "image": "/images/uploads/photo-2026-05-12-18-43-02.jpg",
       "benefits": [
         "Improves smile aesthetics",
         "Enhances chewing function",
@@ -174,12 +169,12 @@
       "category": "orthodontic"
     },
     {
-      "summary": "Custom-made transparent aligners replaced every 1–2 weeks. Removable for eating and brushing, ideal for teens and working professionals with mild to moderate cases.",
+      "summary": "Custom-made clear aligners offer a discreet and comfortable way to straighten teeth without traditional braces. These transparent aligners are replaced every 1–2 weeks to gradually move teeth into alignment and can be removed for eating, brushing, and flossing. Ideal for teenagers and working professionals, clear aligner treatment effectively addresses mild to moderate crowding, spacing, and bite concerns while maintaining your confidence throughout treatment.",
       "price": "From ₹85,000",
       "name": "Clear Aligners",
       "tagline": "Nearly invisible, removable trays that straighten teeth discreetly.",
       "process": [
-        "Digital scan or impression",
+        "Digital scan ",
         "Custom aligner series fabricated",
         "Wear each set for 1–2 weeks",
         "Periodic check-ins",
@@ -189,12 +184,11 @@
       "contentFile": "Clear Aligners.md",
       "icon": "align",
       "id": "aligners",
-      "image": "",
+      "image": "/images/uploads/photo-2026-05-12-18-41-10.jpg",
       "benefits": [
         "Nearly invisible",
-        "Removable for eating",
-        "No metal wires or brackets",
-        "Predictable digital planning"
+        "Removable",
+        "No metal wires or brackets"
       ],
       "category": "orthodontic"
     },
@@ -202,7 +196,7 @@
       "summary": "Thin protective coatings painted onto the deep grooves of molars and premolars where toothbrushes can't reach. Quick, painless, and lasts 3–10 years.",
       "price": "From ₹800",
       "name": "Pit & Fissure Sealants",
-      "tagline": "Painless cavity prevention for molars — reduces decay risk by up to 80%.",
+      "tagline": "Reduces decay risk by up to 80%.",
       "process": [
         "Tooth cleaning",
         "Drying the surface",
@@ -210,15 +204,14 @@
         "Sealant painted into grooves",
         "Hardened with curing light"
       ],
-      "duration": "Minutes per tooth",
+      "duration": "10 mins",
       "contentFile": "sealants.md",
       "icon": "shield",
       "id": "kids-sealants",
-      "image": "",
+      "image": "/images/uploads/b5cfa609-4719-49a6-9774-df9ad6ac2a8b.png",
       "benefits": [
         "Up to 80% cavity reduction",
         "Painless, no drilling",
-        "Quick application",
         "Long-lasting protection"
       ],
       "category": "kids"
@@ -230,28 +223,25 @@
       "tagline": "A quick, painless coating that strengthens enamel and fights cavities.",
       "process": [
         "Teeth are dried",
-        "Varnish painted on",
-        "Hardens quickly with saliva",
-        "Soft food guidance for 4–6 hours"
+        "Fluoride gel or Varnish painted on to the teeth",
+        "Post instructions given "
       ],
-      "duration": "Under 10 min",
-      "contentFile": "Fluoride Varnish.md",
-      "icon": "drop",
-      "id": "kids-fluoride",
-      "image": "",
+      "duration": "10 mins",
+      "contentFile": "Fluoride Gel and Varnish.md",
+      "icon": "shield",
+      "id": "Kids-Fluoride",
+      "image": "/images/uploads/969060a5-9591-4eeb-b1ad-e86355c25c46.png",
       "benefits": [
         "Strengthens enamel",
-        "Reduces sensitivity",
-        "Stops early decay",
-        "Safe for toddlers up"
+        "Prevents decay "
       ],
       "category": "kids"
     },
     {
-      "summary": "A gentle alternative to extraction for baby teeth. Pulpotomy and pulpectomy clean infected pulp tissue and restore the tooth — keeping it functional until it falls out naturally.",
+      "summary": "Pulpotomy and pulpectomy are effective pediatric dental treatments that save infected or severely decayed baby teeth by removing damaged pulp tissue and restoring the tooth's health and function. As a gentle alternative to extraction, these procedures help maintain space for permanent teeth, support normal chewing and speech development, and keep your child's smile healthy until the baby tooth falls out naturally.",
       "price": "From ₹3,500",
       "name": "Pulp Therapy (Kids)",
-      "tagline": "Saves baby teeth from severe decay or infection.",
+      "tagline": "Saves baby teeth from severe decay and infection.",
       "process": [
         "Numbing the tooth",
         "Removal of infected pulp",
@@ -260,8 +250,8 @@
       ],
       "duration": "1–2 visits",
       "contentFile": "Pulp Therapy for Kids.md",
-      "icon": "heart",
-      "id": "kids-pulp",
+      "icon": "tooth",
+      "id": "Kids-Pulp Therapy",
       "image": "",
       "benefits": [
         "Relieves pain",
