@@ -262,7 +262,7 @@
       "category": "kids"
     },
     {
-      "summary": "Tooth-shaped caps for severely decayed or fractured baby teeth. Includes durable stainless steel, tooth-coloured zirconia, and natural-looking strip crowns for front teeth.",
+      "summary": "Pediatric dental crowns are tooth-shaped protective caps designed to restore severely decayed, weakened, or fractured baby teeth. We offer durable stainless steel crowns for long-lasting protection and aesthetic tooth-coloured zirconia crowns for a natural appearance. These restorations help preserve baby teeth, maintain proper chewing function, support speech development, and hold space for the healthy eruption of permanent teeth.",
       "price": "From ₹2,500",
       "name": "Pediatric Dental Crowns",
       "tagline": "Stainless steel and zirconia crowns that protect damaged baby teeth.",
@@ -275,8 +275,8 @@
       "duration": "1 visit",
       "contentFile": "Pediatric Dental Crowns.md",
       "icon": "crown",
-      "id": "kids-crowns",
-      "image": "",
+      "id": "Kids-crowns",
+      "image": "/images/uploads/gemini_generated_image_hgp6luhgp6luhgp6-1-.png",
       "benefits": [
         "Full coverage protection",
         "Strong & long-lasting",
@@ -286,21 +286,21 @@
       "category": "kids"
     },
     {
-      "summary": "Small fixed or removable appliances that keep the space open for the permanent tooth — preventing crowding and reducing the need for braces later.",
-      "price": "From ₹3,000",
+      "summary": "Space maintainers are custom-designed fixed or removable dental appliances used when a baby tooth is lost prematurely. By preserving the space needed for permanent teeth to erupt correctly, they help prevent crowding, shifting of neighbouring teeth, bite problems, and future orthodontic complications, reducing the likelihood of extensive braces treatment later in life.",
+      "price": "4,000",
       "name": "Space Maintainers",
       "tagline": "Holds the gap when a baby tooth is lost too early.",
       "process": [
         "Examination & X-ray",
         "Impression of the area",
         "Custom appliance fabricated",
-        "Fitted & cemented in place"
+        "Appliance is cemented "
       ],
       "duration": "1 visit",
       "contentFile": "Space Maintainers.md",
-      "icon": "spacer",
-      "id": "kids-space",
-      "image": "",
+      "icon": "tooth",
+      "id": "Kids-Space Maintainer",
+      "image": "/images/uploads/photo-2026-05-12-18-39-21.jpg",
       "benefits": [
         "Maintains space for permanent teeth",
         "Prevents crowding",
@@ -311,7 +311,7 @@
     },
     {
       "summary": "Custom-fitted mouth guards absorb impact and prevent broken or knocked-out teeth, lip and tongue cuts, and jaw injuries. Essential for contact sports and kids in braces.",
-      "price": "From ₹2,500",
+      "price": "From ₹5,000",
       "name": "Mouth Guards for Kids",
       "tagline": "Custom protection for sports and orthodontic patients.",
       "process": [
@@ -323,8 +323,8 @@
       "duration": "2 visits",
       "contentFile": "Mouth Guard for Kids.md",
       "icon": "shield",
-      "id": "kids-mouthguard",
-      "image": "",
+      "id": "Kids-Mouthguard",
+      "image": "/images/uploads/photo-2026-05-12-18-38-46.jpg",
       "benefits": [
         "Prevents chipped or knocked-out teeth",
         "Protects lips, cheeks, tongue",
@@ -349,17 +349,12 @@
       "contentFile": "Dental Trauma Management for Kids.md",
       "icon": "bolt",
       "id": "kids-trauma",
-      "image": "",
-      "benefits": [
-        "Same-day emergency slots",
-        "Treatment for baby & permanent teeth",
-        "Reduces long-term complications",
-        "Step-by-step parent guidance"
-      ],
+      "image": "/images/uploads/photo-2026-05-12-18-34-36.jpg",
+      "benefits": [],
       "category": "kids"
     },
     {
-      "summary": "A paediatric dentist evaluates your child's eating habits and provides personalised guidance — from snacking patterns to bottle feeding to tooth-friendly meal planning.",
+      "summary": "Pediatric nutritional counselling is designed to support your child's oral and overall health through healthy dietary habits. Our Pediatric dentist evaluates eating patterns, bottle-feeding practices, snacking habits, and sugar consumption, providing personalised guidance on tooth-friendly nutrition and balanced meal planning. By promoting healthy food choices early, we help reduce the risk of cavities, support proper dental development, and encourage lifelong oral health.",
       "price": "From ₹1,000",
       "name": "Diet Counselling (Kids)",
       "tagline": "Personalised guidance to prevent early-childhood cavities.",
@@ -376,21 +371,9 @@
       "image": "",
       "benefits": [
         "Reduces cavity risk",
-        "Supports jaw & tooth development",
-        "Lifelong healthy habits",
         "Tailored to your child"
       ],
       "category": "kids"
-    },
-    {
-      "id": "test service",
-      "name": "test service",
-      "category": "general",
-      "tagline": "general",
-      "duration": "20 mins",
-      "price": "500",
-      "icon": "tooth",
-      "summary": "gfyffy8d7sryw"
     }
   ]
 }
