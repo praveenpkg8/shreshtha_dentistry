@@ -16,10 +16,10 @@
     "email": "shreshthadentistry2026@gmail.com",
     "addressLine1": "No.19/39, M, Ground Floor, Gopathy Narayana Rd, Teynampet, Thiru Vi Ka Kudiyiruppu, Chennai, Tamil Nadu 600006",
     "addressLine2": "",
-    "mapEmbed": ""
+    "mapEmbed": "https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjw0-SG4c6UAxUAAAAAHQAAAAAQCQ..i&sca_esv=b95ffecbfaf145e4&pvq=Cg0vZy8xMXNkNHBtOXloIlUKT3NocmVzaHRoYSBkZW50aXN0cnkgfCBzaHJlc2h0aGEga2lkcyBkZW50aXN0cnkgfCBzaHJlc2h0aGEgbWF4aWxsb2ZhY2lhbCBjbGluaWMQAhgD&lqi=ClhzaHJlc2h0aGEgZGVudGlzdHJ5IHwgc2hyZXNodGhhIGtpZHMgZGVudGlzdHJ5IHwgc2hyZXNodGhhIG1heGlsbG9mYWNpYWwgY2xpbmljLiBjaGVubmFpSK_P5sqwuICACFp1EAAQARACEAMQBBAFEAYQBxgAGAEYAhgDGAQYBRgGGAciU3NocmVzaHRoYSBkZW50aXN0cnkgc2hyZXNodGhhIGtpZHMgZGVudGlzdHJ5IHNocmVzaHRoYSBtYXhpbGxvZmFjaWFsIGNsaW5pYyBjaGVubmFpkgENZGVudGFsX2NsaW5pYw&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=in&sa=X&ftid=0x3a5267cc8e29521d:0x5c1075a84c237fac"
   },
   "hours": {
-    "weekdays": "Mon - Sat 10.30 AM —  2.00 PM and 5.30 PM —  8.30 PM ",
+    "weekdays": "Mon - Sat 11.00 AM —  8.30 PM ",
     "weekend": "Sunday - 11.00 AM —  3.00 PM"
   },
   "social": {
@@ -28,8 +28,8 @@
     "whatsapp": ""
   },
   "stats": {
-    "googleRating": "4.9",
-    "reviewCount": "19",
+    "googleRating": "5",
+    "reviewCount": "20",
     "yearsOfPractice": "12"
   },
   "theme": {
