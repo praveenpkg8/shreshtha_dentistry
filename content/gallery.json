@@ -5,24 +5,24 @@
       "label": "Reception & Waiting Area",
       "category": "clinic",
       "aspect": "16/10",
-      "image": ""
+      "image": "/images/uploads/img_9754.jpg"
     },
     {
       "id": "2",
       "label": "Operatory 1",
       "category": "clinic",
       "aspect": "1/1",
-      "image": ""
+      "image": "/images/uploads/img_9744.jpg"
     },
     {
       "id": "3",
       "label": "Kids' Play Corner",
       "category": "clinic",
       "aspect": "1/1",
-      "image": ""
+      "image": "/images/uploads/dsc_0274.jpg"
     },
     {
-      "id": "4",
+      "id": "6",
       "label": "Sterilization Bay",
       "category": "clinic",
       "aspect": "16/10",
@@ -30,59 +30,24 @@
     },
     {
       "id": "5",
-      "label": "Veneers — Before & After",
-      "category": "results",
-      "aspect": "1/1",
-      "image": ""
-    },
-    {
-      "id": "6",
-      "label": "Aligners — 8 month progress",
-      "category": "results",
-      "aspect": "1/1",
-      "image": ""
-    },
-    {
-      "id": "7",
-      "label": "Whitening — Before & After",
-      "category": "results",
-      "aspect": "16/10",
-      "image": ""
-    },
-    {
-      "id": "8",
-      "label": "Crown restoration",
-      "category": "results",
-      "aspect": "1/1",
-      "image": ""
-    },
-    {
-      "id": "9",
-      "label": "Digital scanning bay",
-      "category": "clinic",
-      "aspect": "1/1",
-      "image": ""
-    },
-    {
-      "id": "10",
       "label": "Consultation room",
       "category": "clinic",
       "aspect": "16/10",
-      "image": ""
+      "image": "/images/uploads/dsc_0279.jpg"
     },
     {
-      "id": "11",
-      "label": "Implant — full case",
-      "category": "results",
-      "aspect": "1/1",
-      "image": ""
+      "id": "4",
+      "label": "Play equipment set up ",
+      "category": "clinic",
+      "image": "/images/uploads/dsc_0265.jpg",
+      "aspect": "4/3"
     },
     {
-      "id": "12",
-      "label": "Pediatric crowns",
-      "category": "results",
-      "aspect": "1/1",
-      "image": ""
+      "id": "7",
+      "label": "Reception Bay",
+      "category": "clinic",
+      "image": "/images/uploads/img_9758.jpg",
+      "aspect": "4/3"
     }
   ]
 }
