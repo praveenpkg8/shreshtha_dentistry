@@ -39,10 +39,6 @@ function HeroEditorial() {
           style={{ display: "grid", gridTemplateColumns: "1.1fr 1fr", gap: 72, alignItems: "center" }}
         >
           <div>
-            <span className="chip chip-soft" style={{ marginBottom: 28 }}>
-              <span className="dot" style={{ background: "var(--c-primary)" }}></span>
-              Now accepting new patients · {site.brand.location}
-            </span>
             <h1 className="display" style={{ fontSize: "clamp(48px, 7vw, 96px)", marginBottom: 24 }}>
               Dentistry,
               <br />

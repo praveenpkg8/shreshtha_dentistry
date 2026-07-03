@@ -25,7 +25,6 @@ export const navPages = [
   { id: "/services", label: "Services" },
   { id: "/kids", label: "Kids" },
   { id: "/gallery", label: "Gallery" },
-  { id: "/blog", label: "Journal" },
   { id: "/contact", label: "Contact" },
 ];
 

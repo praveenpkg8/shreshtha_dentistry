@@ -86,7 +86,7 @@ export default function KidsPage() {
               ["Pain-free protocols", "Topical anaesthesia before injections. Distraction techniques. Modern, gentle equipment."],
               ["Parent in the room", "You stay close. Behaviour management works best when caregivers are part of it."],
               ["Reward systems", "Stickers, certificates, and a treasure box. Small things, big difference."],
-              ["Specialist-led", "All paediatric care is overseen by Dr. Swetha — author of Paediatric Sports Dentistry."],
+              ["Specialist-led", "All paediatric care is overseen by Dr. Swetha RK."],
             ].map(([t, d], i) => (
               <Reveal key={i} delay={i * 50}>
                 <div className="card" style={{ height: "100%" }}>
